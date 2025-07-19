@@ -1,0 +1,488 @@
+@media screen and (max-width:768px) {
+
+    header {
+        .logo-img {
+            width: 200px;
+        }
+
+        nav {
+            gap: 10px;
+
+            a {
+                font-size: 13px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .hero {
+        .first {
+            margin-left: 30px;
+
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-bottom: 50px
+            }
+
+            button {
+                width: 150px;
+                height: 40px;
+                font-size: 11px;
+                font-weight: 400;
+            }
+        }
+
+        .second {
+            img {
+                width: 350px;
+                height: 350px;
+            }
+        }
+    }
+
+    .villain {
+        padding-top: 40px;
+
+        h1 {
+            font-size: 18px;
+        }
+
+        .midle {
+            .first {
+                h3 {
+                    font-size: 20px;
+                    border-bottom: 50%;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                button {
+                    width: 150px;
+                    height: 40px;
+                    font-size: 11px;
+                    font-weight: 400;
+                }
+            }
+
+            .second {
+                flex-direction: column;
+
+                img {
+                    width: 270px;
+                    height: 150px;
+                }
+            }
+        }
+
+        .end {
+            img {
+                width: 40px;
+                height: 40px;
+            }
+
+            padding-bottom: 35px;
+            margin-top: 40px;
+            padding-top: 30px;
+
+            .list {
+                h4 {
+                    padding-block: 7px;
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+
+    }
+
+    .menu {
+        padding-block: 50px;
+
+        .menu-box {
+            .idk {
+                h2 {
+                    margin-bottom: 15px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+
+                img {
+                    width: 160px;
+                    height: 100px;
+                    margin-bottom: 15px;
+                }
+
+                h5 {
+                    margin-bottom: 30px;
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                button {
+                    width: 100px;
+                    height: 40px;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .Booking {
+        padding-top: 40px;
+
+        .before {
+            .first {
+                img {
+                    width: 400px;
+                    height: 350px;
+                }
+            }
+
+            .second {
+                h2 {
+                    font-size: 25px;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                }
+
+                h4 {
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                input {
+                    border-bottom: 1px solid black;
+                    height: 20px;
+                    margin-block: 10px;
+                    font-size: 12px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                button {
+                    margin-top: 20px;
+                    width: 200px;
+                    height: 40px;
+                    border: 3px solid orange;
+                    font-size: 12px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    .the_end {
+        padding-block: 25px;
+
+        .one {
+            gap: 5px;
+
+            .logo {
+                gap: 6px;
+            }
+
+            h2 {
+                font-size: 16px;
+                padding-bottom: 14px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        .two {
+            h2 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        .three {
+            h2 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        .four {
+            h2 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 12px;
+                margin-bottom: 20px;
+            }
+
+            input {
+                padding-block: 9px;
+                width: 200px;
+                padding-left: 9px;
+            }
+        }
+    }
+
+    footer {
+        height: 60px;
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    header {
+        height: 80px;
+
+        .logo-img {
+            width: 150px;
+        }
+
+        nav {
+            a {
+                display: none;
+            }
+        }
+
+        .burger-html {
+            .burger {
+                display: flex;
+                width: 34px;
+            }
+        }
+
+    }
+
+    .hero {
+        margin-top: 30px;
+
+        .first {
+            h1 {
+                font-size: 19px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 10px;
+                margin-bottom: 30px;
+            }
+
+            button {
+                width: 100px;
+                height: 40px;
+                font-size: 11px;
+                font-weight: 400;
+                margin-bottom: 30px;
+            }
+
+        }
+
+        .second {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+
+    .villain {
+        padding-top: 25px;
+
+        h1 {
+            font-size: 13px;
+        }
+
+        .midle {
+            .first {
+                h3 {
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 8px;
+                }
+
+                button {
+                    width: 90px;
+                    height: 30px;
+                    font-size: 11px;
+                    font-weight: 400;
+                }
+            }
+
+            .second {
+                gap: 15px;
+
+                img {
+                    width: 100px;
+                    height: 70px;
+                }
+            }
+
+        }
+
+        .end {
+            gap: 7px;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+
+            .list {
+                h4 {
+                    padding-block: 5px;
+                    font-size: 12px;
+                }
+
+                p {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+
+    .menu {
+        padding-block: 30px;
+
+        .menu-box {
+            .idk {
+                h2 {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+
+                }
+
+                img {
+                    width: 80px;
+                    height: 60px;
+                }
+
+                h5 {
+                    margin-bottom: 10px;
+                    font-size: 10px;
+                }
+                p{
+                    font-size: 9px;
+                }
+                button{
+                    width: 60px;
+                    height: 25px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .Booking{
+        padding-top: 20px;
+        .before{
+            .first{
+                img{
+                    display: none;
+                }
+            }
+            .second{
+                h2{
+                    font-size: 20px;
+                }
+                h4{
+                    font-size: 14px;
+                }
+                input{
+                    height: 15px;
+                    font-size: 10px;
+                }
+                p{
+                    font-size: 10px;
+                }
+                button{
+                    width: 140px;
+                    font-size: 10px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+    .the_end{
+        padding-block: 17px;
+        .one{
+           img{
+            width: 15px;
+           }
+           h2{
+            padding-bottom: 10px;
+            font-size: 10px;
+            
+           }
+           p{
+                font-size: 8px;
+            }
+        }
+        .two{
+            h2{
+            font-size: 10px;
+            
+           }
+           p{
+                font-size: 8px;
+            }
+        }
+        .three{
+            h2{
+            font-size: 10px;
+            
+           }
+           p{
+                font-size: 8px;
+            }
+        }
+        .four{
+            h2{
+            font-size: 10px;
+            
+           }
+           p{
+                font-size: 8px;
+                margin-bottom: 15px;
+            }
+            input{
+                padding-block: 7px;
+                width: 100px;
+
+            }
+        }
+    }
+    footer{
+        
+        p{
+            font-size: 10px;
+        }
+    }
+}

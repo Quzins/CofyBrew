@@ -1,0 +1,569 @@
+* {
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 2560px;
+    width: 100%;
+}
+
+header {
+    .burger {
+        display: none;
+    }
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+
+    .logo-img {
+        width: 300px;
+    }
+
+    .header-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+            a {
+                font-family: "Varta", sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                text-decoration: none;
+                color: #ffffff;
+                transition: 0.3s;
+            }
+
+            a:hover {
+                color: #A67B5B;
+            }
+        }
+    }
+}
+
+.hero {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
+    .first {
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+
+
+        h1 {
+            font-size: 51px;
+            font-weight: 600;
+            margin-bottom: 17px;
+
+        }
+
+        p {
+            font-family: "Varta", sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            opacity: 0.7;
+            margin-bottom: 100px;
+
+        }
+
+        button {
+            transition: 0.3s;
+            width: 200px;
+            height: 51px;
+            background-color: black;
+            border: none;
+            color: white;
+            letter-spacing: 1px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+
+        }
+
+        button:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: 3px solid black;
+        }
+    }
+
+    .second {
+
+        img {
+
+            width: 500px;
+            height: 500px;
+        }
+    }
+
+}
+
+
+
+.villain {
+    flex-direction: column;
+    color: white;
+    display: flex;
+    padding-top: 70px;
+    background-color: #000000;
+
+    h1 {
+        color: rgb(230, 230, 230);
+        text-align: center;
+        margin-bottom: 100px;
+        letter-spacing: 1px;
+        font-size: 27px;
+        font-weight: 500;
+
+
+        .text {
+            font-weight: 900;
+            color: white;
+        }
+    }
+
+    .midle {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .first {
+            h3 {
+                font-family: "Roboto", sans-serif;
+                font-size: 30px;
+                border-bottom: 3px solid white;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 300;
+                letter-spacing: 0.5px;
+                font-family: "Varta", sans-serif;
+                opacity: 0.6;
+                margin-bottom: 40px;
+            }
+
+            button {
+                transition: 0.3s;
+                width: 200px;
+                height: 51px;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                color: rgb(0, 0, 0);
+                letter-spacing: 1px;
+                font-size: 15px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #000000;
+                color: rgb(255, 255, 255);
+                border: 3px solid white;
+            }
+        }
+
+        .second {
+            display: flex;
+            gap: 30px;
+
+            img {
+                width: 400px;
+                height: 300px;
+            }
+        }
+    }
+
+    .end {
+        padding-bottom: 60px;
+        margin-top: 80px;
+        background-color: rgb(20, 20, 20);
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-around;
+
+        .list {
+            h4 {
+                padding-block: 10px;
+                font-size: 25px;
+            }
+
+            p {
+                font-family: "Varta", sans-serif;
+                font-weight: 300;
+                font-size: 18px;
+                color: rgb(139, 139, 139);
+            }
+        }
+    }
+}
+
+.menu {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding-block: 100px;
+
+    .menu-box {
+        display: flex;
+        justify-content: space-around;
+
+        .idk {
+
+            h2 {
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            img {
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 25px;
+                width: 300px;
+                height: 200px;
+
+            }
+
+            h5 {
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 45px;
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            p {
+                font-family: "Roboto", sans-serif;
+                font-size: 18px;
+                color: rgb(145, 145, 145);
+            }
+
+            button {
+                margin-top: 30px;
+                width: 150px;
+                height: 51px;
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 249, 249);
+                border: 3px solid white;
+                font-family: "Roboto", sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: white;
+                color: black;
+                border: none;
+            }
+
+        }
+    }
+}
+
+.Booking {
+    padding-top: 60px;
+    background-color: rgb(255, 255, 255);
+
+    .before {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .first {
+            img {
+                width: 800px;
+                height: 750px;
+            }
+        }
+
+        .second {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                color: rgb(0, 0, 0);
+                font-family: "Roboto", sans-serif;
+                font-size: 40px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            h4 {
+                color: rgb(0, 0, 0);
+                font-size: 23px;
+                font-weight: 600;
+                font-family: "Roboto", sans-serif;
+            }
+
+            input {
+                font-family: "Roboto", sans-serif;
+                color: rgb(0, 0, 0);
+                border: none;
+                border-bottom: 3px solid black;
+                height: 40px;
+                margin-block: 15px;
+                outline: none;
+                background-color: rgb(255, 255, 255);
+                padding-bottom: 10x;
+                font-size: 15px;
+                font-weight: 300;
+            }
+
+            p {
+                font-family: "Varta", sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                color: rgb(73, 73, 73);
+            }
+
+
+        }
+    }
+
+    button {
+        text-transform: capitalize;
+        margin-top: 40px;
+        transition: 0.3s;
+        width: 300px;
+        height: 61px;
+        background-color: white;
+        border: 3px solid orange;
+        color: orange;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 40px;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 30px;
+    }
+
+    button:hover {
+        background-color: orange;
+        border: none;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.the_end {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #202020;
+    padding-block: 50px;
+    color: white;
+
+    .one {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+
+        img {
+            width: 20px;
+            height: 20px;
+            display: flex;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 {
+            font-size: 25px;
+            font-weight: 400;
+            padding-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        p {
+
+            font-size: 18px;
+            opacity: 0.5;
+            transition: 0.3s;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .Adress {
+            margin-bottom: 10px;
+            opacity: 0.5;
+            border-bottom: 1px solid white;
+            padding-bottom: 11px;
+        }
+
+        p:hover {
+            opacity: 1;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .two {
+        h2 {
+            font-size: 25px;
+            font-weight: 400;
+            padding-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.5;
+            transition: 0.3s;
+            padding-bottom: 10px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        p:hover {
+            color: #A67B5B;
+            opacity: 1;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .three {
+        h2 {
+            font-size: 25px;
+            font-weight: 400;
+            padding-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.5;
+            transition: 0.3s;
+            padding-bottom: 10px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        p:hover {
+            color: #A67B5B;
+            opacity: 1;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .four {
+        h2 {
+            font-size: 25px;
+            font-weight: 400;
+            padding-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.5;
+            transition: 0.3s;
+            padding-bottom: 10px;
+            font-family: "Roboto", sans-serif;
+            margin-bottom: 30px;
+        }
+
+        input {
+            padding-block: 12px;
+            width: 250px;
+            padding-left: 12px;
+            border-radius: 5px;
+            background-color: #202020;
+            border: 2px solid rgb(109, 109, 109);
+            color: white;
+        }
+    }
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        color: white;
+
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    span {
+        color: #A67B5B;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hamburger {
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(../assets/photo_5467443168686503594_y.jpg);
+    img{
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 45px;
+        color: white;
+    }
+    nav {
+        margin-top: 320px;
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+
+        a {
+          font-family: "Roboto", sans-serif;
+            font-size: 26px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #d19e77;
+            transition: 0.3s;
+        }
+        a:hover{
+           color: #775a44;
+        }
+    }
+}
+button{
+     font-family: "Roboto", sans-serif;
+}
