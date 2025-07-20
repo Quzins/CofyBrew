@@ -1,4 +1,4 @@
-* {
+ew* {
     font-family: "Merriweather", serif;
     margin: 0;
     padding: 0;
@@ -572,36 +572,40 @@ button{
         .drinks{
             h1{
                 font-size:30px;
-                p{
+                
+            }
+            p{
                     font-size:18px;
                 }
-            }
         }
         .breakfast{
             h1{
                 font-size:30px;
-                p{
+                
+            }
+            p{
                     font-size:18px;
                 }
-            }
         }
     }
     .first{
         .main_menu{
             h1{
                 font-size:30px;
-                p{
+               
+            }
+             p{
                     font-size:18px;
                 }
-            }
         }
         .desserts{
             h1{
                 font-size:30px;
-                p{
+               
+            }
+             p{
                     font-size:18px;
                 }
-            }
         }
     }
 }
