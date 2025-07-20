@@ -567,3 +567,42 @@ html {
 button{
      font-family: "Roboto", sans-serif;
 }
+.menui{
+    .first{
+        .drinks{
+            h1{
+                font-size:30px;
+                p{
+                    font-size:18px;
+                }
+            }
+        }
+        .breakfast{
+            h1{
+                font-size:30px;
+                p{
+                    font-size:18px;
+                }
+            }
+        }
+    }
+    .first{
+        .main_menu{
+            h1{
+                font-size:30px;
+                p{
+                    font-size:18px;
+                }
+            }
+        }
+        .desserts{
+            h1{
+                font-size:30px;
+                p{
+                    font-size:18px;
+                }
+            }
+        }
+    }
+}
+        
