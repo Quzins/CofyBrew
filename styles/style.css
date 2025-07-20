@@ -568,7 +568,11 @@ button{
      font-family: "Roboto", sans-serif;
 }
 .menui{
+    display:flex;
+    justify-content:space-around;
     .first{
+        display:flex;
+        flex-direction:column;
         .drinks{
             h1{
                 font-size:30px;
@@ -588,7 +592,9 @@ button{
                 }
         }
     }
-    .first{
+    .second{
+         display:flex;
+        flex-direction:column;
         .main_menu{
             h1{
                 font-size:30px;
